@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  airlineui:
+    image: ${DOCKER_REGISTRY-}airlineui
+    build:
+      context: .
+      dockerfile: AirlineUI\Dockerfile
+
+  airline:
+    image: ${DOCKER_REGISTRY-}airline
+    build:
+      context: .
+      dockerfile: Airline\Dockerfile
+

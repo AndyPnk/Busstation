@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Busstation</name>
+    </assembly>
+    <members>
+        <member name="M:Busstation.Controllers.BusstationController.GetAll">
+            <summary>
+            Get all
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.BusstationController.GetBusstationAsync(System.Int32)">
+            <summary>
+            Get by Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.BusstationController.Add(Busstation.BLL.DTOs.BusstationDTO)">
+            <summary>
+            Create Busstation
+            </summary>
+            <param name="BusstationDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.BusstationController.Delete(System.Int32)">
+            <summary>
+            Delete by Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.BusstationController.Update(System.Int32,Busstation.BLL.DTOs.BusstationDTO)">
+            <summary>
+            Update by Id
+            </summary>
+            <param name="Id"></param>
+            <param name="BusstationDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.BusstationScheduleController.GetAll">
+            <summary>
+            Get all
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.BusstationScheduleController.GetBusstationScheduleAsync(System.Int32)">
+            <summary>
+            Get by Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.BusstationScheduleController.Add(Busstation.BLL.DTOs.BusstationScheduleDTO)">
+            <summary>
+            Create BusstationSchedule
+            </summary>
+            <param name="BusstationScheduleDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.BusstationScheduleController.Delete(System.Int32)">
+            <summary>
+            Delete by Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.BusstationScheduleController.Update(System.Int32,Busstation.BLL.DTOs.BusstationScheduleDTO)">
+            <summary>
+            Update by Id
+            </summary>
+            <param name="Id"></param>
+            <param name="BusstationScheduleDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.PassengerController.GetAll">
+            <summary>
+            Get all
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.PassengerController.GetPassengerAsync(System.Int32)">
+            <summary>
+            Get by Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.PassengerController.Add(Busstation.BLL.DTOs.PassengerDTO)">
+            <summary>
+            Create passenger
+            </summary>
+            <param name="passengerDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.PassengerController.Delete(System.Int32)">
+            <summary>
+            Delete by Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Busstation.Controllers.PassengerController.Update(System.Int32,Busstation.BLL.DTOs.PassengerDTO)">
+            <summary>
+            Update by Id
+            </summary>
+            <param name="Id"></param>
+            <param name="passengerDto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
